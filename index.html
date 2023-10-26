@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <title>Trip Goal</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="./img/Logo.png" class="img-fluid"></a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#sec1">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sec2">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sec3">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+        </ul>
+        <button class="btn btn-primary" type="button">Register</button>
+      </div>
+    </div>
+  </nav>
+  <section class="sec1 pt-5 pb-5" id="sec1">
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+        <div class="col-lg-5 col-md-6 col-sm-7">
+          <div class="img1"><img src="./img/Road.png" class="img-fluid" alt=""></div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-sm-11 d-flex align-items-center">
+          <div class="text1">
+            <p>Book now</p>
+            <div class="t-icon">
+              <h1>Let’s Enjoy Your Trip with TripGoal <img src="./img/Rocket.png" class="img-fluid rocket" alt=""></h1>
+            </div>
+            <h2>Thinking of taking a break from every day's busy life? Planning to go out of the country with your loved ones to have some fun and quality time in a cost-effective way?</h2>
+            <button class="btn btn-primary mt-3" type="button" id="liveToastBtn">Start Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-body d-flex justify-content-between align-items-center">
+        <p>We use cookies to ensure your best experience through your continued use of this site you accept this use for more information, please see our privacy policy</p>
+        <button type="button" class="btn btn-primary w-5 b-sms" data-bs-dismiss="toast">Accept</button>
+      </div>
+    </div>
+  </div>  
+
+  <section class="sec2 pt-5" id="sec2">
+    <div class="container">
+      <div class="text2">
+        <p>3 steps for the perfect trip</p>
+        <h1>Find travel perfection</h1>
+        <h2>Naturally head of the class whenit comes to luxury travel planning,bbecause we do more homework than anyone else</h2>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+          <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Fill out a 2-minute questionnaire about how you like to travel">
+            <div class="card card-sec2 h-100 border-light border-2" style="width: 18rem;">
+              <img src="./img/Chat.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tell us what you want to do</h5>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+          <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="It all happends online, We recommend everything to your vision">
+            <div class="card card-sec2 h-100 border-light border-2" style="width: 18rem;">
+              <img src="./img/Calendar.png" class="card-img-top img-fluid img2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Share your travel preference</h5>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="col-xl-4 col-md-12 col-sm-12 d-flex justify-content-center">
+          <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Once you’re happy with your final plan, We handle everything for you">
+            <div class="card card-sec2 h-100 border-light border-2" style="width: 18rem;">
+              <img src="./img/Star.png" class="card-img-top img-fluid img3" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">We’ll give you recommendations</h5>
+              </div>
+            </div>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="sec3 pt-5 pb-5" id="sec3">
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-xl-6 col-md-8">
+          <div class="text3">
+            <p>Location</p>
+            <h1>Suggested Location</h1>
+            <h2 class="pt-3">Travel is my life. Since 1999, I’ve been traveling around the world nonstop. If you also love travel, you’re in the right place!</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row cards d-flex justify-content-center">
+        <div class="col-xl-4 col-md-5">
+          <div class="card text-white">
+            <img src="./img/sl1.png" class="card-img img-fluid" alt="...">
+            <div class="card-img-overlay p-3">
+              <h5 class="card-title mb-1">Bali Handara Gate</h5>
+              <p class="card-text text-white mb-1">Indonesia</p>
+              <p class="card-text text-white">$1200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-5">
+          <div class="card text-white">
+            <img src="./img/sl2.png" class="card-img img-fluid" alt="...">
+            <div class="card-img-overlay p-3">
+              <h5 class="card-title mb-1">Buddhist shrine</h5>
+              <p class="card-text text-white mb-1">Tokyo, Japan</p>
+              <p class="card-text text-white">$1200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-5 card3">
+          <div class="card text-white">
+            <img src="./img/sl3.png" class="card-img img-fluid" alt="...">
+            <div class="card-img-overlay p-3">
+              <h5 class="card-title mb-1">Rialto Bridge</h5>
+              <p class="card-text text-white mb-1">Italy</p>
+              <p class="card-text text-white">$1200</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-white">
+              <img src="./img/sl1.png" class="card-img img-fluid" alt="...">
+              <div class="card-img-overlay p-3">
+                <h5 class="card-title mb-1">Bali Handara Gate</h5>
+                <p class="card-text text-white mb-1">Indonesia</p>
+                <p class="card-text text-white">$1200</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-white">
+              <img src="./img/sl2.png" class="card-img img-fluid" alt="...">
+              <div class="card-img-overlay p-3">
+                <h5 class="card-title mb-1">Buddhist shrine</h5>
+                <p class="card-text text-white mb-1">Tokyo, Japan</p>
+                <p class="card-text text-white">$1200</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-white">
+              <img src="./img/sl3.png" class="card-img img-fluid" alt="...">
+              <div class="card-img-overlay p-3">
+                <h5 class="card-title mb-1">Rialto Bridge</h5>
+                <p class="card-text text-white mb-1">Italy</p>
+                <p class="card-text text-white">$1200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon left" aria-hidden="true"><img src="./img/icon-left.svg" class="img-fluid" alt=""></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+          <span class="carousel-control-next-icon right" aria-hidden="true"><img src="./img/icon-right.svg" class="img-fluid" alt=""></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <section class="sec4 pt-5 pb-5" id="sec4">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10 FAQ mx-auto d-flex justify-content-between align-items-center">
+          <div class="text4">
+            <p>Contact Us</p>
+            <h1 class="pb-4">Do You Have Any Questions?</h1>
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact Us</button>
+          </div>
+          <div class="photo">
+            <img src="./img/woman.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-10 FAQ1 pt-4">
+          <div class="text41 pb-5">
+            <p>Contact Us</p>
+            <h1 class="pb-4">Do You Have Any Questions?</h1>
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact Us</button>
+          </div>
+          <div class="photo1 mx-auto">
+            <img src="./img/woman.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Модальное окно -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title col-8 " id="staticBackdropLabel">Fill out the form to contact us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <!--Форма + валидация-->
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="validationServer01" class="form-label">Name</label>
+                  <input type="text" class="form-control is-invalid" id="validationServer01" placeholder="Olya" required>
+                  <div id="validationServer01" class="invalid-feedback">
+                    Please enter your name
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationServer02" class="form-label">Surname</label>
+                  <input type="text" class="form-control is-invalid" id="validationServer02" placeholder="Chekmareva" required>
+                  <div id="validationServer01" class="invalid-feedback">
+                    Please enter your surname
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationServer03" class="form-label">Email</label>
+                  <input type="email" class="form-control is-invalid" id="validationServer03" placeholder="name@example.com" required>
+                  <div id="validationServer03" class="invalid-feedback">
+                    Please enter your email
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationServer04" class="form-label">Phone number</label>
+                  <input type="number" class="form-control is-invalid" id="validationServer04" placeholder="+7(999)999-99-99" required>
+                  <div id="validationServer04" class="invalid-feedback">
+                    Please enter your phone number
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                      Accept the terms and agreements
+                    </label>
+                    <div id="invalidCheck3Feedback" class="invalid-feedback">
+                      You must accept before sending
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 d-flex justify-content-end button-form">
+                  <button class="btn btn-primary btn-form" type="submit">Contact us</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec5 pb-3">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-xl-2 col-md-12 d-flex justify-content-center pb-3">
+          <a class="brand" href="#"><img src="./img/Logo.png" class="img-fluid"></a>
+        </div>
+        <div class="col-xl-5 col-md-12 d-flex justify-content-center pb-4">
+          <ul class="nav justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link" href="#sec1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec2">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec3">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec4">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sec4">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-2 col-md-12 d-flex justify-content-center">
+          <div class="icons" type="button"><img src="./img/icons.svg" class="img-fluid" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec6 pb-5">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="text6">© 2021. All copyrights reserved by RH Agency</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
